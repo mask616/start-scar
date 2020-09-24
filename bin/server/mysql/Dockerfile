@@ -1,0 +1,6 @@
+FROM mysql:8.0.21
+LABEL maintainer="dhh"
+
+ENV MYSQL_ROOT_HOST '%'
+ENV MYSQL_ROOT_PASSWORD 123456
+
