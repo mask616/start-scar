@@ -21,7 +21,7 @@ run $docker_name
 # win
 # docker build --network=host --no-cache -t scar-mysql:0.1 ./
 # docker rm -f scar-mysql
-# docker run -d --network host --name=scar-mysql scar-mysql:0.1
+# docker run -d -p 3306:3306 --name=scar-mysql scar-mysql:0.1
 # docker push scar-mysql:0.1
 
 # docker logs --tail=100 -f scar-mysql
