@@ -21,7 +21,7 @@ run $docker_name
 # win
 # docker build --network=host --no-cache -t scar-redis:0.1 ./
 # docker rm -f scar-redis
-# docker run -itd --network host --name=scar-redis scar-redis:0.1 /bin/bash
+# docker run -d -p 6379:6379 --name=scar-redis scar-redis:0.1
 # docker push scar-redis:0.1
 
 # docker logs --tail=100 -f scar-redis
