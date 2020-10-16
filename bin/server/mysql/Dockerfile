@@ -4,3 +4,4 @@ LABEL maintainer="dhh"
 ENV MYSQL_ROOT_HOST '%'
 ENV MYSQL_ROOT_PASSWORD 123456
 
+COPY rootfs /
